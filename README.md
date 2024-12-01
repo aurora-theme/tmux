@@ -1,6 +1,6 @@
-# Nord Tmux
+# Custom Tmux
 
-Just a simple tmux theme using Nord color pallete.
+Just a simple tmux theme using Onedark and Nord color pallete.
 
 ## Preview
 
@@ -11,5 +11,5 @@ Just a simple tmux theme using Nord color pallete.
 In your `tmux.conf`:
 
 ```bash
-set -g @plugin "karyanayandi/nord-tmux"
+set -g @plugin "karyanayandi/custom-tmux"
 ```
