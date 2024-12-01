@@ -1,4 +1,4 @@
-# Custom Tmux
+# Custom Tmux Theme
 
 Just a simple tmux theme using Onedark and Nord color pallete.
 
@@ -11,5 +11,5 @@ Just a simple tmux theme using Onedark and Nord color pallete.
 In your `tmux.conf`:
 
 ```bash
-set -g @plugin "karyanayandi/custom-tmux"
+set -g @plugin "karyanayandi/custom-tmux-theme"
 ```
