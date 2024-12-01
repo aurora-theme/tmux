@@ -8,12 +8,26 @@ case $SELECTED_THEME in
     ["background"]="#282c34"
     ["foreground"]="#c8ccd4"
     ["highlight"]="#3e4451"
-    ["active"]="#353b45",
+    ["active"]="#353b45"
     ["blue"]="#61afef"
     ["cyan"]="#56b6c2"
     ["green"]="#98c379"
     ["red"]="#be5046"
     ["yellow"]="#e5c07b"
+  )
+  ;;
+
+"onenord")
+  declare -A THEME=(
+    ["background"]="#282c34"
+    ["foreground"]="#c8ccd4"
+    ["highlight"]="#3e4451"
+    ["active"]="#353b45"
+    ["blue"]="#81A1C1"
+    ["cyan"]="#88C0D0"
+    ["green"]="#A3BE8C"
+    ["red"]="#D57780"
+    ["yellow"]="#EBCB8B"
   )
   ;;
 
@@ -50,12 +64,12 @@ case $SELECTED_THEME in
     ["background"]="#282c34"
     ["foreground"]="#c8ccd4"
     ["highlight"]="#3e4451"
-    ["active"]="#353b45",
-    ["blue"]="#61afef"
-    ["cyan"]="#56b6c2"
-    ["green"]="#98c379"
-    ["red"]="#be5046"
-    ["yellow"]="#e5c07b"
+    ["active"]="#353b45"
+    ["blue"]="#81A1C1"
+    ["cyan"]="#88C0D0"
+    ["green"]="#A3BE8C"
+    ["red"]="#D57780"
+    ["yellow"]="#EBCB8B"
   )
   ;;
 esac
