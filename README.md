@@ -1,6 +1,6 @@
-# Custom Tmux Theme
+# Aurora TMUX Theme
 
-Just a simple tmux theme using Onedark and Nord color pallete.
+Just a simple tmux theme using Onedark and Nord Aurora color pallete.
 
 ## Preview
 
@@ -11,5 +11,5 @@ Just a simple tmux theme using Onedark and Nord color pallete.
 In your `tmux.conf`:
 
 ```bash
-set -g @plugin "karyanayandi/custom-tmux-theme"
+set -g @plugin "karyanayandi/aurora.tmux"
 ```

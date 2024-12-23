@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-SELECTED_THEME="$(tmux show-option -gv @custom-tmux-theme)"
+SELECTED_THEME="$(tmux show-option -gv @aurora)"
 
 case $SELECTED_THEME in
 "onedark")
