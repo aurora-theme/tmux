@@ -1,6 +1,6 @@
 # Aurora TMUX Theme
 
-Just a simple tmux theme using Nord Aurora color pallete.
+Just a simple tmux theme using Onedark and Nord Aurora color pallete.
 
 ## Preview
 
