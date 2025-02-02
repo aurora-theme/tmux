@@ -5,12 +5,12 @@ SELECTED_THEME="$(tmux show-option -gv @aurora)"
 case $SELECTED_THEME in
 "aurora")
   declare -A THEME=(
-    ["background"]="#2e3440"
+    ["background"]="#282c34"
     ["foreground"]="#d8dee9"
-    ["highlight"]="#3b4252"
-    ["active"]="#3b4252"
-    ["blue"]="#81a1c1"
-    ["cyan"]="#5e81ac"
+    ["highlight"]="#353b45"
+    ["active"]="#353b45"
+    ["blue"]="#5e81ac"
+    ["cyan"]="#88c0d0"
     ["green"]="#a3be8c"
     ["red"]="#bf616a"
     ["yellow"]="#ebcb8b"
@@ -75,12 +75,12 @@ case $SELECTED_THEME in
 
 *)
   declare -A THEME=(
-    ["background"]="#2e3440"
+    ["background"]="#282c34"
     ["foreground"]="#d8dee9"
-    ["highlight"]="#3b4252"
-    ["active"]="#3b4252"
-    ["blue"]="#81a1c1"
-    ["cyan"]="#5e81ac"
+    ["highlight"]="#353b45"
+    ["active"]="#353b45"
+    ["blue"]="#5e81ac"
+    ["cyan"]="#88c0d0"
     ["green"]="#a3be8c"
     ["red"]="#bf616a"
     ["yellow"]="#ebcb8b"
