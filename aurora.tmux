@@ -16,6 +16,7 @@ tmux set -g pane-border-style "fg=${THEME[active]}"
 tmux set -g pane-active-border-style "fg=${THEME[blue]}"
 tmux set -g pane-border-status off
 tmux set -g status-style bg="${THEME[background]}"
+tmux set -g window-number on
 
 window_number="#($SCRIPTS_PATH/number.sh #I)"
 zoom_number="#($SCRIPTS_PATH/number.sh #P)"
@@ -26,7 +27,7 @@ tmux set -g status-left "#[fg=${THEME[highlight]},bg=${THEME[cyan]},bold] #{?cli
 # Focus Window
 tmux set -g window-status-current-format "$RESET#[fg=${THEME[yellow]},bg=${THEME[active]}] #{?#{==:#{pane_current_command},ssh},󰣀,} #[fg=${THEME[foreground]},bold,nodim]#{?window-number,$window_number ,}#W#[nobold]#{?window_zoomed_flag, $zoom_number, $custom_pane} #{?window_last_flag,,} "
 # Unfocused Window
-tmux set -g window-status-format "$RESET#[fg=${THEME[foreground]}] #{?#{==:#{pane_current_command},ssh},󰣀,}${RESET} #{?window-number,$window_number ,}#W#[nobold,dim]#{?window_zoomed_flag, $zoom_number, $custom_pane} #[fg=${THEME[yellow]}]#{?window_last_flag } "
+tmux set -g window-status-format "$RESET#[fg=${THEME[foreground]}] #{?#{==:#{pane_current_command},ssh},󰣀,}${RESET} #{?window_number,$window_number ,}#W#[nobold,dim]#{?window_zoomed_flag, $zoom_number, $custom_pane} #[fg=${THEME[yellow]}]#{?window_last_flag,, }"
 
 # Right Bars
 tmux set -g status-right ""
